@@ -3,8 +3,8 @@ const tg = window.Telegram.WebApp;
 tg.ready();
 tg.expand();
 
-// API Base URL - для локальной разработки
-const API_URL = ''; // Пусто - запросы идут на тот же сервер
+// API Base URL - GitHub Pages (замените на ваш URL после деплоя)
+const API_URL = 'https://your-username.github.io/bot-lion';
 
 // Translations
 const translations = {
